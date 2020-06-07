@@ -1,0 +1,75 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino Uno",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino",
+                "C:/Program Files (x86)/Arduino/tools/**",
+                "C:/Program Files (x86)/Arduino/hardware/tools/**",
+                "C:/Program Files (x86)/Arduino/libraries/**",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega/**",
+                "G:/nickw/Documents/Arduino/libraries/**",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\**",
+                "C:\\Program Files (x86)\\Arduino\\tools\\**"
+            ],
+            "forcedInclude": [
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+            ],
+            "defines": [
+                "__AVR_ATmega2560__",
+                "ARDUINO=10809"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files (x86)/Arduino/hardware/tools/avr/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Wemos D1 Mini",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp8266/tools/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/**",
+                "C:/Users/${env:Username}/Documents/Arduino/libraries/**"
+            ],
+            "defines": [
+                "USBCON",
+                "ARDUINO=10809"
+            ],
+            "forcedInclude": [
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/cores/esp8266/Arduino.h",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.2/variants/d1_mini/pins_arduino.h"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Program Files (x86)/Arduino/hardware/tools/avr/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "ESP32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/hardware/esp32/1.0.4/tools/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/hardware/esp32/1.0.4/**",
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/tools/**",
+                "C:/Users/${env:Username}/Documents/Arduino/libraries/**"
+            ],
+            "defines": [
+                "__AVR_ATmega328P__",
+                "ARDUINO=10809"
+            ],
+            "forcedInclude": [
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/packages/esp32/hardware/esp32/1.0.4/variants/nodemcu-32s/pins_arduino.h"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/Users/nickcan/AppData/Local/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-80-g6c4433a-5.2.0/bin/xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

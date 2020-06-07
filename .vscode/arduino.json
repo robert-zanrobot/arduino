@@ -1,0 +1,7 @@
+{
+    "port": "COM2",
+    "board": "arduino:avr:megaADK",
+    "programmer": "AVR ISP",
+    "output": "./build",
+    "sketch": "work\\TRtest\\03\\03.ino"
+}

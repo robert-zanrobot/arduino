@@ -1,0 +1,27 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\mega"
+  },
+  {
+    "Sourcefile": "g:\\nickw\\Documents\\Arduino Save\\build\\sketch\\03.ino.cpp",
+    "Include": "DHT.h",
+    "Includepath": "G:\\nickw\\Documents\\Arduino\\libraries\\Humidity_Temperature_Sensor"
+  },
+  {
+    "Sourcefile": "g:\\nickw\\Documents\\Arduino Save\\build\\sketch\\03.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "G:\\nickw\\Documents\\Arduino\\libraries\\Humidity_Temperature_Sensor\\DHT.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
