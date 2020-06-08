@@ -1,7 +1,7 @@
 #include <DHT.h>
 
-#define DHTPIN A4
-#define DHTTYPE DHT21
+#define DHTPIN A4 //類比腳位
+#define DHTTYPE DHT21 //DHT類型
 
 long int Lcounter = 0; //定義 counter 為 int 類型變數，且初始值為0
 long int LaState;      //定義 aState 為 int 類型變數
@@ -9,7 +9,6 @@ long int LaLastState;  //定義 aLastState 為 int 類型變數
 long int Rcounter = 0; //定義 counter 為 int 類型變數，且初始值為0
 long int RaState;      //定義 aState 為 int 類型變數
 long int RaLastState;  //定義 aLastState 為 int 類型變數
-long int Ltest;
 long int RE = 12;
 long int DE = 10;
 int num;
