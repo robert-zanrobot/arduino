@@ -1,5 +1,4 @@
 #include <DHT.h>
-#include <PS2X_lib.h>
 
 #define DHTPIN A4 //類比腳位
 #define DHTTYPE DHT21 //DHT類型
