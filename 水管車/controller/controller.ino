@@ -3,6 +3,7 @@ int RE = 26;
 int num;
 long int GG;
 
+
 void setup()
 {
     Serial.begin(115200); // initialize serial at baudrate 9600:
@@ -12,6 +13,8 @@ void setup()
     delay(10);
     digitalWrite(DE, LOW);
     digitalWrite(RE, LOW); //  (always high as Master Writes data to Slave)
+    int vrx = analogRead(14);
+    int vry = analogRead(27);
 }
 void loop()
 {

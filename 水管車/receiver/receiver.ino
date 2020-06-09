@@ -1,4 +1,5 @@
 #include <DHT.h>
+#include <PS2X_lib.h>
 
 #define DHTPIN A4 //類比腳位
 #define DHTTYPE DHT21 //DHT類型
@@ -22,11 +23,6 @@ void AnalogWrite(int pinNumber, int value)
 {
     pinMode(pinNumber, OUTPUT);
     analogWrite(pinNumber, value);
-}
-const int AnalogRead(int pinNumber)
-{
-    pinMode(pinNumber, INPUT);
-    analogRead(pinNumber);
 }
 int Position(uint8_t pinNumber)
 {
