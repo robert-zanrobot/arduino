@@ -9,8 +9,8 @@ long int LaLastState;  //定義 aLastState 為 int 類型變數
 long int Rcounter = 0; //定義 counter 為 int 類型變數，且初始值為0
 long int RaState;      //定義 aState 為 int 類型變數
 long int RaLastState;  //定義 aLastState 為 int 類型變數
-long int RE = 12;
-long int DE = 10;
+int RE = 12;
+int DE = 10;
 int num;
 
 void DigitalWrite(int pinNumber, boolean status)
