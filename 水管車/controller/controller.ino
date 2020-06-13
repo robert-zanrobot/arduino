@@ -65,8 +65,12 @@ void loop()
 void PS2()
 {
     ps2x.read_gamepad(false, 0);
-    int xReading = readAxis(PSS_LX);
-    int yReading = readAxis(PSS_LY);
+    int lxReading = readAxis(PSS_LX);
+    int lyReading = readAxis(PSS_LY);
+    int rxReading = readAxis(PSS_RX);
+    int ryReading = readAxis(PSS_RY);
+    int l1Reading = readAxis(PSB_L1);
+    int r1Reading = readAxis(PSB_R1);
 }
 int readAxis(int thisAxis)
 {
