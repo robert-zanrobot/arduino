@@ -68,7 +68,7 @@ void handleCar()
   default:
     break;
   }
-
+  //網頁內容
   message += "<html> <head> <title>Gungor yalcin</title><head>";
   message += "<body><h3>Wifi Robot Car NodeMCU  Web Server</h1>";
   message += "<table> ";
@@ -89,7 +89,7 @@ void handleCar()
   server.send(200, "text/html", message);
 }
 
-void handleNotFound()
+void handleNotFound() //錯誤位址回報錯誤
 {
   String message = "File Not Found\n\n";
   message += "URI: ";
@@ -109,12 +109,13 @@ void handleNotFound()
 void setup()
 {
   pinMode(D4,OUTPUT);
-  digitalWrite(D4,LOW);
-  dbh1.init(D7, D5, D8, D6, D1, D2, D0, D0); //
+  digitalWrite(D4,LOW); //這個是繼電器開關
+  dbh1.init(D7, D5, D8, D6, D1, D2, D0, D0); //DBH1 pin定義
   Serial.begin(115200);
-  WiFi.mode(WIFI_AP);
+  WiFi.mode(WIFI_AP); //WIFI模式
   WiFi.softAP(ssid, password);
   IPAddress myIP = WiFi.softAPIP();
+  // 序列阜顯示WiFi的連接狀況&WiFi的IP
   Serial.println("");
   Serial.println("");
   Serial.print("Connected to ");
