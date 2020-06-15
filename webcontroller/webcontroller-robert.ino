@@ -1,3 +1,4 @@
+# 使用本程式前, 先確認Arduino IDE已安裝esp8266環境, 可參考 http://hammer1007.blogspot.com/2017/11/esp82661-2-esp8266.html
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <DBH1.h> // DBH1.cpp 第178行 IN2A 應該是 IN1B
